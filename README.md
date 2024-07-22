@@ -11,7 +11,7 @@ Welcome to my Othello Game Solver project! This project features a sophisticated
 
 Here’s a glimpse of the game interface:
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content">
   <img src="assets/othello_game2.png" alt="Othello Game 2" style="width: 48%;"/>
   <img src="assets/othello_game1.png" alt="Othello Game 1" style="width: 48%;"/>
 </div>
