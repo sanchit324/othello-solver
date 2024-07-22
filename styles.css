@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 2px;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    background-color: #029067;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.cell.black {
+    background-color: black;
+}
+
+.cell.white {
+    background-color: white;
+}
+
+.turn-indicator {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.available-move {
+    background-color: #FF9CBF;
+}
+
+
