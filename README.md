@@ -4,6 +4,11 @@ This is my attempt of making a othello game solver engine using minimax algorith
 
 I also made a UI using Javascript, HTML, CSS to play the game between two users
 
+![Image1](assets/othello_game2.png)
+![Image1](assets/othello_game1.png)
+
+The Green blocks represents the unused states, pink ones the possible moves for the player and black and white represents corresponding players blocks at the current state.
+
 ## Tech Stack Used
 
 - JavaScript
