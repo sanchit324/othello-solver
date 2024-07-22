@@ -1,19 +1,32 @@
 # Othello Game Solver
 
-This is my attempt of making a othello game solver engine using minimax algorithm and alpha-beta pruning to optimise the run time of the algorithm further
+Welcome to my Othello Game Solver project! This project features a sophisticated Othello game solver engine developed using advanced algorithms.
 
-I also made a UI using Javascript, HTML, CSS to play the game between two users
+## Key Features
 
-![Image1](assets/othello_game2.png)
-![Image1](assets/othello_game1.png)
+- **Othello Game Solver Engine:** Utilizes the **Minimax algorithm** coupled with **Alpha-Beta Pruning** to significantly optimize algorithm runtime.
+- **Interactive UI:** Built with **JavaScript, HTML, and CSS**, allowing users to play the game between two players.
 
-The Green blocks represents the unused states, pink ones the possible moves for the player and black and white represents corresponding players blocks at the current state.
+## Gameplay Visualization
 
-## Tech Stack Used
+Here’s a glimpse of the game interface:
 
-- JavaScript
-- HTML
-- CSS
-- Java
+<div style="display: flex; justify-content: space-between;">
+  <img src="assets/othello_game2.png" alt="Othello Game 2" style="width: 48%;"/>
+  <img src="assets/othello_game1.png" alt="Othello Game 1" style="width: 48%;"/>
+</div>
 
-### Follow [Sanchit Singla | Github](https://github.com/sanchit324)
+In the game:
+
+- **Green** blocks indicate **unused states**.
+- **Pink** blocks represent **possible moves** for the player.
+- **Black** and **White** blocks denote the corresponding players' pieces at the current state.
+
+## Tech Stack
+
+- **JavaScript**
+- **HTML**
+- **CSS**
+- **Java**
+
+For more information and updates, follow [Sanchit Singla on GitHub](https://github.com/sanchit324).
